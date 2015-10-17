@@ -1,0 +1,59 @@
+<!-- This form will be usesd for my final project and also week 08 Homework submission -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <title>Wk08 Contact Form</title>
+
+<!-- Wk8 HW...may change slightly for final project -->
+  
+  <link rel="stylesheet" href="css/reset.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="my.css">
+</head>
+
+<body>
+
+    <div id="contactForm">
+<!-- Really wanted to make the div transparent but, couldn't avoid the text becoming transparent also -->
+      <form id="myForm">  
+          
+          <h1>Contact 711 Communications!</h5>
+        <p>* Denotes a required field.</P>
+          <label>Name*</label>
+          <input type="text" placeholder="Full Name" required>
+          <br>
+          <label>Email*</label>
+          <input type="email" placeholder="email@address.com" required>       
+          <br>
+      
+        <label>Your Message</label>
+        <textarea placeholder="Enter your message here"></textarea>
+        <br>
+        
+          <label>Subject</label>
+          <form action="action_page.php" class="menu">
+            <select name="Subject">Let Us Know How We Can Help
+            <option value="opt1">Message</option>
+            <option value="opt2">Social Media</option>
+            <option value="opt3">PPC</option>
+            <option value="opt4">SEO</option>
+             <option value="opt5">Design</option>
+           <br><br>  
+       <form id="myRadio">
+          <input type="radio" name="btnRadio" value="VIP"/> Urgent </br>
+          <input type="radio" name="btnRadio" value="Not Important"/> Turn Off the Sirens </br>
+      <br>
+        <label>Password</label>
+        <!-- Only used for Homework requiremnts -->
+        <input type="password" name="password"><br>
+        <input type="submit" value="Send Message"></button>
+        </form>
+    </div>
+    <!-- end of form -->
+    <script src='http://code.jquery.com/jquery-latest.min.js'></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
+  <script src="form.js"></script>
+  </body>
+  </html>

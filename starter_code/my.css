@@ -1,0 +1,34 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	background: -webkit-gradient(linear, 
+    left top, left bottom, from(#000000), to(#1ba3df)) fixed;
+}
+	
+#contactForm{
+	font-size: 15px;
+    background-color: #ffffff;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    border-style: dashed;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#myForm{
+	margin: 10%;
+    font-weight: bold;
+    color: #000000;
+    display: inline-block;
+    line-height: 200%;
+    
+}
+h1{
+	text-align: center;
+	font-size: 32px;
+	color: #1ba3df;
+}
+.menu{
+line-height: 200%;
+}
